@@ -9,7 +9,8 @@ import io.cucumber.junit.CucumberOptions;
 @CucumberOptions(features = "Feature",
 glue = "stepDefination",
 monochrome = true,plugin= {"pretty","html:target/cucumber-reports"},
-dryRun = false
+dryRun = false,
+tags="@DropdownMenu"
 		)
 
 
