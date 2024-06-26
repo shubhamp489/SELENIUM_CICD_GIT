@@ -1,0 +1,9 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="SuiteName">
+    <test thread-count="5" name="TestName">
+        <classes>
+            <class name="testNgAnnotation.Demo" />
+        </classes>
+    </test>
+</suite>
