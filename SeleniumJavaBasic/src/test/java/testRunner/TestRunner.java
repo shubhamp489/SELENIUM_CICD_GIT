@@ -10,7 +10,7 @@ import io.cucumber.junit.CucumberOptions;
 glue = "stepDefination",
 monochrome = true,plugin= {"pretty","html:target/cucumber-reports"},
 dryRun = false,
-tags="@DropdownMenu"
+tags="@tag23"
 		)
 
 
